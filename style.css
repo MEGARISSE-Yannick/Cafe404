@@ -1,0 +1,15 @@
+body{
+    background-color: #7e8a97;
+}
+.text{
+    color: white;
+}
+.contour{
+    position: absolute;
+    left: 30%;
+    background-color: #30475e;
+    height: 600px;
+    width: 600px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
