@@ -1,15 +1,61 @@
 body{
-    background-color: #7e8a97;
-}
-.text{
+    background-image: url(https://zupimages.net/up/20/48/l3bp.jpg);
+    background-size:  50%;
+    font-family: 'Paytone One', sans-serif;
     color: white;
+}
+
+.bouton_disponible{
+    background-color: green;
+    color: green;
+}
+.bouton_indisponible{
+    background-color: red;
+    color: red;
+
 }
 .contour{
     position: absolute;
     left: 30%;
-    background-color: #30475e;
-    height: 600px;
-    width: 600px;
+    background-color: #023846;
+    box-shadow: 7px 7px black;
+    height: 400px;
+    width: 500px;
     border-radius: 50px;
     margin-top: 20px;
 }
+
+.trait1{
+    border-bottom: 2px solid white;
+}
+.trait2{
+    border-bottom: 3px solid white;
+} 
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #012231;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    
+}
+input[type=submit]:hover {
+    background-color: white;
+    color:blue;
+    border: 1px solid blue;
+}
+
